@@ -18,7 +18,26 @@ fclose($myfile2);
 ?>
 
 <h2> TEST </h2>
-<h1><center><?php echo $x ?> <?php echo $y ?></center></h1>
+<h1><center>
+
+<?php
+$myfile1 = fopen("3lslowa.txt", "r") or die("Unable to open file!");
+$lines = file($myFile1);//file in to an array
+$x = $lines[rand(0,1600)
+fclose($myfile1);
+
+
+$myfile2 = fopen("5lslowa.txt", "r") or die("Unable to open file!");
+$lines2 = file($myFile2);//file in to an array
+$y = $lines2[rand(0,27928)
+fclose($myfile2);
+
+
+echo $x;
+echo $y;
+?>
+test 2
+</center></h1>
 
 
 </body>
